@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+</head>
+    <title>Resume</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+<body>
+<div class="box ">    
+<h1>RESUME</h1>
+<div class="sec">
+<ul>
+<script type="text/javascript">
+
+var text={
+          "basics": {
+                    "name":"AnilKanta,",
+                    "place":"Hyderabad", 
+                    "mobile no":"9603405268",
+                    "email":"anil7231@gmail.com"
+                    },            
+          "summary":{
+                    "summary":"SUMMARY",
+                    "details":"To secure a position in your company that challenges my skills and makes a decent use of my knowledge all the while constantly improving my current self. Willing to Learn and adapt to new opportunities and Challenges."
+                    },
+                    
+          "profilesummary":{       
+                      "education":"PROFILE SUMMARY",
+                      "secure1":"Have good knowledge on python.",
+                      "secure2":"Have strong grip on Microsoft office tools.",
+                      "secure3":"Have a solid knowledge on Arduino.",
+                      "secure4":"Adequate knowledge on Objected Oriented-programming language of Python.",
+                      "secure5":"Have knowledge on Multiprocessing in Python.",
+                      "secure6":"Have knowledge on Multithreading, Threading in Python.",
+                      "secure7":"Knows How to create Worksheets and fetch data into worksheets by using XLSX writer in Python.",
+                      "secure8":"Have good knowledge on Data Structures.",
+                      "secure9":"Ready to adopt and willing to learn any new kind of technologies and by that improving my current status."
+                      },
+          "academics":{
+                    "academic":"ACADEMIC QUALIFICATION",
+                    "college":"B. Tech in SRK Institute of Technology and Engineering College affiliated to JNTU-KAKINADA with 68.6% aggregate in the year 2018.",
+                    "intermediate":"Intermediate at Narayana Junior College with 88.5% aggregate in the year 2014 under Board of Intermediate Education- A.P.",
+                    "ssc":"S.S.C in Nagarjuna Public School with 8.5CGPA aggregate in the year 2012 under Board of Secondary Education-A.P."
+                    },
+
+                    
+          "skills":{
+                    "tech_skills":"TECHNICAL SKILLS",
+                    "skill1":"C",
+                    "skill2": "Python",
+                    "skill3":" Mysql" ,
+                    "skill4":"Javascript",
+                    "skill5":"Html"
+                   
+                    },  
+        "acknowledgement":{
+                        "acknowledge":  "ACKNOWLEDGEMENT",
+                        "acknowledge1":"Attended a two day BSNL Industrial Tour.",
+                        "acknowledge2": "Frequently Participated in many co-curricular activities.",
+                        "acknowledge3":"Participated in VLSI workshop.",
+                        "acknowledge4":"Active member of social activities organised.",
+                            },
+            
+            "declaration":{
+                "declare":"DECLARATION",
+                "summary" :"I hereby declare that the information given in here with is correct to my knowledge and I will be responsible for any discrepancy.",
+                "place":"Place :",
+                "hyderabad":"Hyderabad",
+                "wish":"Thank You",
+                "name":"Anil Kanta"
+                            }         
+                            };
+        
+
+                    document.write('<div class="sec-1">');   
+                        for (key in text.basics){
+                                document.write('<li>'+text.basics[key]+" "+'</li>');
+                             
+                    }
+                        document.write('</div>'+'<br/>');   
+ 
+                    document.write('<div class="sec-2">');   
+                        for (key in text.summary){
+                           
+                                document.write('<p>'+text.summary[key]+" "+'</p>');
+
+                        
+                    }
+                        document.write('</div>'+'<br/>'); 
+                    document.write('<div class="sec-3">');   
+                        for (key in text.profilesummary){
+                            
+                                document.write('<p>'+text.profilesummary[key]+" "+'</p>');
+
+                        
+                    }
+                        document.write('</div>'+'<br/>'); 
+                    document.write('<div class="sec-4">');   
+                        for (key in text.academics){     
+                            document.write('<p>'+text.academics[key]+" "+'</p>');
+                                
+                        
+                    }
+                        document.write('</div>'+'<br/>'); 
+                    document.write('<div class="sec-5">');   
+                        for (key in text.skills){
+                                document.write('<p>'+text.skills[key]+" "+'</p>');
+                            
+                    }
+                        document.write('</div>'+'<br/>'); 
+                    document.write('<div class="sec-6">');   
+                        for (key in text.acknowledgement){                       
+                                document.write('<p>'+text.acknowledgement[key]+" "+'</p>');
+                            
+                    }
+                     
+                        document.write('</div>'+'<br/>'); 
+                    document.write('<div class="sec-7">');   
+                        for (key in text.declaration){                        
+                                document.write('<p>'+text.declaration[key]+" "+'</p>');
+                            
+                    }
+                        document.write('</div>'); 
+                    
+
+                </script>
+            </ul>
+        </div>
+    </div>
+  </body>
+</html>
+<style>
+*{
+    margin:0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+body {
+    background-color:lightslategray;
+    max-width: 1200px;
+    height: 100px;
+}
+.box{
+    background-color: rgb(250, 235, 235);
+    width: 1000px;
+    border: 5px solid lightcoral;
+    padding: 50px;
+    margin: 20px;
+    margin-left:8%;
+
+}
+.sec{
+    background-color: rgb(250, 235, 235);
+    background-image: white; 
+    background-size: cover;
+    background-position: center;
+ } 
+ h1 {
+    margin-left: 43%;
+    color:brown;
+    font-weight: bold;
+ }
+.sec-1 li{
+    margin-left: 40%;
+    display : inline-block;
+}
+.sec-1 li:nth-child(2){
+    margin-left:0.5%;
+}
+.sec-1 li:nth-child(3){
+    margin-left:43%
+}
+.sec-1 li:nth-child(4){
+    margin-left:40.5%
+}
+.sec-2 p:nth-child(1){
+    color: brown;
+    padding: -0.2em;
+    border:3px;
+    border-style:solid;
+    border-color:rgb(230, 221, 221);
+    font-size: 200%;
+    background:lightslategray;
+    margin-left:5%;
+    
+}
+.sec-2 p:nth-child(2){
+    padding:10px;
+    margin-left:5%;
+}
+.sec-3 p:nth-child(1){
+    color: brown;
+    padding: -0.2em;
+    border:2px;
+    border-style:solid;
+    border-color:rgb(230, 221, 221);
+    font-size: 200%;
+    background:lightslategray;
+    margin-left:5%;
+    
+}
+.sec-3  p:nth-child(2){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-3  p:nth-child(3){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-3  p:nth-child(4){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-3  p:nth-child(5){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-3  p:nth-child(6){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-3  p:nth-child(7){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-3  p:nth-child(8){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-3  p:nth-child(9){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-3  p:nth-child(10){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-4 p:nth-child(1){
+    color:brown;
+    padding: -0.2em;
+    border:3px;
+    border-style:solid;
+    border-color:rgb(230, 221, 221);
+    font-size: 200%;
+    background:lightslategray;
+    margin-left:5%;
+    
+}
+.sec-4 p:nth-child(2){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%; 
+}
+.sec-4 p:nth-child(3){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+
+}
+.sec-4 p:nth-child(4){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+
+}
+.sec-5 p:nth-child(1){
+    color: brown;
+    padding: -0.2em;
+    border:2px;
+    border-style:solid;
+    border-color:rgb(230, 221, 221);
+    font-size: 200%;
+    background:lightslategray;
+    margin-left:5%;
+    
+  
+}
+.sec-5 p:nth-child(2){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+
+.sec-5 p:nth-child(3){
+        padding: 10px;
+        display: list-item;       
+        list-style-type: disc;       
+        list-style-position: inside; 
+        margin-left:5%;
+
+}
+.sec-5 p:nth-child(4){
+        padding: 10px;
+        display: list-item;       
+        list-style-type: disc;       
+        list-style-position: inside; 
+        margin-left:5%;
+} 
+
+.sec-5 p:nth-child(5){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-5 p:nth-child(6){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-6 p:nth-child(1){
+    color: brown;
+    padding: -0.2em;
+    border:2px;
+    border-style:solid;
+    border-color:rgb(230, 221, 221);
+    font-size: 200%;
+    background:lightslategray;
+    margin-left:5%;
+    
+}
+.sec-6 p:nth-child(2){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+    
+}   
+.sec-6 p:nth-child(3){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-6 p:nth-child(4){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-6 p:nth-child(5){
+    padding: 10px;
+    display: list-item;       
+    list-style-type: disc;       
+    list-style-position: inside; 
+    margin-left:5%;
+}
+.sec-7 p:nth-child(1){
+    color: brown;
+    padding: -0.2em;
+    border:2px;
+    border-style:solid;
+    border-color:rgb(230, 221, 221);
+    font-size: 200%;
+    background:lightslategray;
+    margin-left:5%;
+}
+.sec-7 p:nth-child(2){
+    padding: 20px;
+    margin-left:4%;
+}
+.sec-7 p:nth-child(3){
+    padding: 20px;
+    margin-left:4%;
+}
+.sec-7 p:nth-child(4){
+    margin-top:-40px;
+    margin-left:12%;
+}
+.sec-7 p:nth-child(5){
+    float:right;
+    margin-top:-20px;
+}
+.sec-7 p:nth-child(6){
+    float:right;
+    margin-top: 10px;
+    margin-right: -80px;
+}
+</style>
+
+
+
